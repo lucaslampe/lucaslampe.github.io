@@ -1,1 +1,9 @@
-exclude: ['README.md']
+# Site settings
+title: Lucas Lampe
+tag_text: Lucas Lampe
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
