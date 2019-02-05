@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Avenir;
+    src: url(assets/fonts/Avenir.ttc);
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/fonts/ProximaNova-Bold.otf);
+}
+
 html, body {
-    font-family: "Avenir", sans-serif;
+    font-family: Avenir, sans-serif;
     /* overflow-x: hidden; */
 }
 
@@ -25,7 +35,7 @@ html, body {
 }
 
 .header h1 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: Proxima Nova, sans-serif;
     font-weight: bold;
     font-size: 60px;
     margin-bottom: 60px;
@@ -101,7 +111,7 @@ html, body {
 }
 
 .logo-title {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: Proxima Nova, sans-serif;
     font-weight: 900;
     font-size: 16px;
     opacity: 1; 
@@ -118,7 +128,7 @@ html, body {
 }
 
 .content h2 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: Proxima Nova, sans-serif;
     font-weight: bold;
     font-size: 40px;
     color: #1E136A;
