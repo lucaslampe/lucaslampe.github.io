@@ -1,0 +1,228 @@
+html, body {
+    font-family: "Avenir", sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.wrapper {
+    z-index: 1;
+    position: relative;
+}
+
+.header {
+    margin-top: 0;
+    color: white;
+    height: 42.375em;
+    background-color: #1E136A;
+}
+
+.header p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.blue-text-header {
+    color: #00CEEF;
+}
+
+.header h1 {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+/* -------- Particles --------*/
+
+.oval-1 {
+    position: absolute;
+    top: 342px;
+    left: 89px;
+}
+
+.oval-2 {
+    position: absolute;
+    top: 195px;
+    left: 54px;
+}
+
+.oval-2-1 {
+    position: absolute;
+    top: 261px;
+    left: 303px;
+    height: 23px;
+}
+
+.oval-2-2 {
+    position: absolute;
+    top: 310px;
+    left: 1107px;
+    height: 23px;
+}
+
+.oval-3 {
+    position: absolute;
+    top: 554px;
+    left: 368px;
+}
+
+.oval-4 {
+    position: absolute;
+    top: 199px;
+    left: 1191px;
+}
+
+.oval-5 {
+    position: absolute;
+    top: 554px;
+    left: 1172px;
+}
+
+/* -------- --------- --------*/
+
+.navbar {
+    font-size: 16px;
+    top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: right;
+}
+
+.navbar ul {
+    opacity: 0.5;
+    font-weight: 800;
+    list-style-type: none;
+    width: auto;
+}
+
+.navbar li {
+    display: inline;
+    padding-left: 50px;
+}
+
+.logo-title {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    opacity: 1; 
+    color: white;
+}
+
+.header-main {
+    margin-top: 160px;
+}
+
+
+.content {
+    margin-top: 150px;
+}
+
+.content h2 {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #1E136A;
+    text-align: center;
+}
+
+.content h6 {
+    /* text-align: center;  */
+    margin-top: 30px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content p {
+    margin-bottom: 80px;
+}
+
+.blue-block {
+    position: absolute;
+    top: 407px;
+}
+
+.magenta-block {
+    position: absolute;
+    right: 0px;
+    top: 159px;
+}
+
+@media only screen and (max-width: 900px) {
+    .blue-block {
+        position: absolute;
+        top: 415px;
+        left: -110px;
+    }
+    
+    .magenta-block {
+        position: absolute;
+        right: -90px;
+        top: 159px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .blue-block {
+        position: absolute;
+        top: 440px;
+        left: -180px;
+    }
+    
+    .magenta-block {
+        position: absolute;
+        right: -150px;
+        top: 159px;
+    }
+}
+
+.mouse-scroll-icon {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.apply-button {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-rectangle {
+    margin-top: 12.5%;
+    margin-bottom: 30px; 
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    background-color: #1E136A;
+    border-radius: 14px;
+    height: 180px;
+    width: 95%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 60px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5%;
+    color: white;
+}
+
+.footer-icons {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: lightgray;
+}
