@@ -10,7 +10,7 @@
 
 html, body {
     font-family: Avenir, sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .wrapper {
