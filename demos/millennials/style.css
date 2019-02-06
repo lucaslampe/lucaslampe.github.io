@@ -1,3 +1,5 @@
+/* Fonts need to be fixed */
+
 @font-face {
     font-family: Avenir;
     src: url(assets/fonts/Avenir.ttc);
@@ -8,8 +10,11 @@
     src: url(assets/fonts/ProximaNova-Bold.otf);
 }
 
-html, body {
+/* ---------------------- */
+
+body {
     font-family: Avenir, sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -38,6 +43,21 @@ html, body {
     font-weight: bold;
     font-size: 60px;
     margin-bottom: 60px;
+}
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 80px;
+}
+
+ul.dashed > li {
+    margin-left: 15px;
+}
+
+ul.dashed > li::before {
+    content: "- ";
+    margin-left: -10px;
 }
 
 /* -------- Particles --------*/
@@ -124,6 +144,7 @@ html, body {
 
 .content {
     margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 .content h2 {
@@ -140,10 +161,6 @@ html, body {
     margin-bottom: 80px;
     font-size: 18px;
     font-weight: 400;
-}
-
-.content p {
-    margin-bottom: 80px;
 }
 
 .blue-block {
@@ -191,6 +208,7 @@ html, body {
 }
 
 .apply-button {
+    margin-top: 70px;
     display: block;
     position: absolute;
     left: 50%;
