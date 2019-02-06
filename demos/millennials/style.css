@@ -56,8 +56,9 @@ ul.dashed > li {
 }
 
 ul.dashed > li::before {
-    content: "- ";
-    margin-left: -10px;
+    content: "\FE58";
+    position: absolute;
+    margin-left: -20px;
 }
 
 /* -------- Particles --------*/
