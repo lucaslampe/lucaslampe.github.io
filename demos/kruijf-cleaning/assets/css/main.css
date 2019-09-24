@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap');
+
+.nav-bar {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.head {
+    height: 100vh;
+    min-height: 500px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0)
+    ), url(/assets/img/unsplash1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    /* text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35); */
+    font-family: 'Spectral', serif;
+}
+
+.head-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.text1 {
+  font-size: 300px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  left: -60px;
+  font-family: 'Spectral', serif;
+}
+.text2 {
+  font-size: 300px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  right: -60px;
+  font-family: 'Spectral', serif;
+}
+
+.text1desc {
+  margin-top: 180px;
+  font-size: 30px;
+  font-family: 'Spectral', serif;
+}
+
+.block {
+  margin-top: 150px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.foot {
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.80);
+  color: white;
+  font-family: 'Spectral', serif;
+}
