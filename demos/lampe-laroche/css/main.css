@@ -3,6 +3,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    background-color: #4E6A78;
 }
 
 .container {
@@ -13,12 +14,11 @@ html, body {
 .navbar {
     min-height: 100px;
     box-shadow: 50px;
+    background-color: white;
 }
 
 .header-logo {
-    width: 300px;
-    top: 20%;
-    position: absolute;
+    width: 250px;
 }
 
 .header-text {
@@ -37,6 +37,16 @@ html, body {
     padding-bottom: 40px;
     line-height: 1.9;
     font-family: 'Asap', serif !important;
+    background-color: white;
+}
+
+.footer-text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.9;
+    font-family: 'Asap', serif !important;
+    background-color: #4E6A78;
+    color: white;
 }
 
 .second-text {
@@ -52,7 +62,7 @@ html, body {
     padding-bottom: 40px;
     line-height: 1.9;
     font-family: 'Asap', serif !important;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .page-footer {
@@ -63,8 +73,8 @@ html, body {
     background-color: gray;
 }
 
-.test-img {
-    height: 250px;
+.personal-img {
+    height: 125px;
     margin-bottom: 30px;
 }
 
@@ -130,6 +140,11 @@ html, body {
 
 .box2{
     height: 300px;
+}
+
+#watdoenwe, #wiezijnwe, #contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 

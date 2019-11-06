@@ -12,9 +12,11 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
       <!--[if lt IE 8]>
@@ -56,7 +58,7 @@
 
       <div class="jumbotron jumbotron-fluid box1">
         <div class="container header-text">
-          <div class="black-box">
+          <div class="black-box" data-aos="fade-right" data-aos-duration="2000">
             <div class="inner-text"><h1 class="dislplay-4">Lampe Laroche</h1>
             <p class="lead">Fiscaal advies en legal mediation.</p></div>
           </div>
@@ -78,7 +80,7 @@
 
       <div class="containter intro-text" id="watdoenwe">
         <div class="row justify content-md-center">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12 text-center" data-aos="zoom-out" data-aos-duration="1000">
               <h1>Wat doen we?</h1><br>
           </div>
         </div>
@@ -104,9 +106,9 @@
       <div class="jumbotron2 jumbotron-fluid box2">
       </div>
 
-      <div class="containter second-text" id="wiezijnwe">
+      <div class="containter third-text" id="wiezijnwe">
           <div class="row justify content-md-center">
-              <div class="col-lg-12 text-center">
+              <div class="col-lg-12 text-center" data-aos="zoom-out" data-aos-duration="1000">
                   <h1>Wie zijn we?</h1>
               </div>
     
@@ -118,55 +120,35 @@
             </div>
           </div>-->
         </div>
-      </div>
 
       <div class="containter third-text">
           <div class="row justify-content-md-center">
             <div class="col-lg-3 text-center">
-              <img class="test-img" src="https://dairydoo.com/wp-content/uploads/2018/03/Placeholder.png">
+              <img class="personal-img" src="img/victor.jpg">
               <h4>mr. Victor J. N. Lampe</h4>
               <p>Fiscaal Adviseur</p>
             </div>
             <div class="col-lg-3 text-center">
-              <img class="test-img" src="https://dairydoo.com/wp-content/uploads/2018/03/Placeholder.png">
+              <img class="personal-img" src="img/luc.jpg">
               <h4>mr. Luc L. G. Jansen</h4>
               <p>Fiscaal Adviseur</p>
             </div>
             <div class="col-lg-3 text-center">
-              <img class="test-img" src="https://dairydoo.com/wp-content/uploads/2018/03/Placeholder.png">
+              <img class="personal-img" src="img/kees.jpg">
               <h4>Kees A. Koot</h4>
               <p>Fiscaal Adviseur</p>
             </div>
             <div class="col-lg-3 text-center">
-              <img class="test-img" src="https://dairydoo.com/wp-content/uploads/2018/03/Placeholder.png">
+              <img class="personal-img" src="img/alexandra.jpg">
               <h4>Alexandra Dikkers</h4>
               <p>Secretariaat</p>
             </div>
           </div>
         </div>
+      </div>
 
         <div class="jumbotron3 jumbotron-fluid box2">
         </div>
-
-      <div class="containter intro-text" id="contact">
-        <div class="row justify content-md-center">
-          <div class="col-lg-12 text-center">
-            <h1>Contact</h1><br>
-          </div>
-          <div class="col-lg-6 text-right">
-            <p>Zusterplein 22<br>
-              3703 CB, Zeist
-            </p>
-          </div>
-          <div class="col-lg-6 text-left">
-            <p>+31 30 69 33 380<br>
-              info@lampelaroche.nl</p>
-          </div>
-          <div class="col-lg-12 text-center">
-            <br><a href="mailto:info@lampelaroche.nl"><button type="button" class="btn btn-outline-secondary">Stuur een e-mail</button></a>
-          </div>
-        </div>
-      </div>
 
       <div class="containter-fluid">
         <div class="row contact">
@@ -176,6 +158,26 @@
           </div>
         </div>
       </div>
+
+      <div class="containter footer-text" id="contact">
+          <div class="row justify content-md-center">
+            <div class="col-lg-12 text-center" data-aos="zoom-out" data-aos-duration="1000">
+              <h1>Contact</h1><br>
+            </div>
+            <div class="col-lg-6 text-right">
+              <p>Zusterplein 22<br>
+                3703 CB, Zeist
+              </p>
+            </div>
+            <div class="col-lg-6 text-left">
+              <p>+31 30 69 33 380<br>
+                info@lampelaroche.nl</p>
+            </div>
+            <div class="col-lg-12 text-center">
+              <br><a href="mailto:info@lampelaroche.nl"><button type="button" class="btn btn-outline-light">Stuur een e-mail</button></a>
+            </div>
+          </div>
+        </div>
       
       <!-- Footer 
       
@@ -201,5 +203,6 @@
           r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
           ga('create','UA-XXXXX-X','auto');ga('send','pageview');
       </script>
+      <script>AOS.init();</script>
     </body>
 </html>
