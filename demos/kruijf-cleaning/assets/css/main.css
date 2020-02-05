@@ -17,7 +17,7 @@
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0)
-    ), url("/assets/img/unsplash1-squashed.jpg");
+    ), url("assets/img/unsplash1-squashed.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
