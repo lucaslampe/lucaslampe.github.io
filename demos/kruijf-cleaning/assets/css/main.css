@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap');
 
-body {
-  overflow-x: hidden;
+.wrapper {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  position: relative;
 }
 
 .nav-bar {
@@ -25,10 +27,12 @@ body {
 }
 
 .head-row {
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     justify-content: center;
-    padding-top: 20%;
+    padding-top: 225px;
 }
 
 .text1 {
@@ -58,10 +62,33 @@ body {
   font-family: 'Spectral', serif;
 }
 
+a {
+  color: #212529;
+  text-decoration: underline;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkslategrey;
+}
+
 .block {
   margin-top: 150px;
   font-size: 20px;
   line-height: 1.8;
+}
+
+.block-last {
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.left {
+  vertical-align: left;
 }
 
 .foot {
@@ -75,14 +102,29 @@ body {
   margin-top: 150px;
 }
 
+.vl {
+  border-left: 2px solid #414042;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  top: 30px;
+}
+
+.round {
+  border-radius: 35px;
+  width: 150px;
+  padding: 10px;
+}
+
 .final-block {
   margin-top: 180px;
 }
 
 footer {
   margin-top: 50px;
-  min-height: 300px;
-  background-color: darkslategrey;
+  min-height: 200px;
+  background-color: #414042;
   position: block;
   color: white;
 }
