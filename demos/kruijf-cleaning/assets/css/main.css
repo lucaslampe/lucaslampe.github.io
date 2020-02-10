@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap');
 
+@media (min-width: 992px) {
+  .block {
+    margin-top: 150px;
+  }
+}
+
 .wrapper {
   overflow-x: hidden !important;
   scroll-behavior: smooth;
@@ -21,7 +27,7 @@
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0)
-    ), url(/assets/img/ZMnefoI3k.jpg);
+    ), url(/assets/img/unsplash1-squashed.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,8 +85,18 @@ a:hover {
   color: darkslategrey;
 }
 
+.hilo {
+  margin-top: 50px;
+}
+
 .block {
   margin-top: 150px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.block-1 {
+  margin-top: 60px;
   font-size: 20px;
   line-height: 1.8;
 }
