@@ -125,6 +125,11 @@ a:hover {
   margin-top: 180px;
 }
 
+.testimonial {
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 200px;
+}
+
 footer {
   margin-top: 50px;
   min-height: 200px;
