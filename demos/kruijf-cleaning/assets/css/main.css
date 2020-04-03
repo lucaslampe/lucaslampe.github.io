@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap');
 
+@media screen and (max-width: 768px) {
+  .testimonials {
+    max-height: 700px;
+  }
+  .icon-overlay {
+    height: 300px;
+    top: calc(50% - 150px);
+  }
+  .carousel-controls .control {
+    width: 25px;
+    height: 25px;
+    top: inherit;
+  }
+
+  .carousel-control-prev {
+    visibility: hidden;
+  }
+  .carousel-control-next {
+    visibility: hidden;
+  }
+  .control i {
+    font-size: .7rem;
+  }
+  .testimonials .message {
+    font-size: 1rem;
+  }
+  .testimonials h2 {
+    font-size: 1.5rem;
+  }
+
+}
+
 @media (min-width: 992px) {
   .block-1 {
     margin-top: 150px;
@@ -148,9 +180,9 @@ a:hover {
   margin-top: 180px;
 }
 
-.testimonial {
+.testimonial-block {
   background-color: rgba(0, 0, 0, 0.05);
-  height: 200px;
+  height: 250px;
 }
 
 footer {
@@ -159,4 +191,52 @@ footer {
   background-color: #414042;
   position: block;
   color: white;
+}
+
+/* Testimonial Carousel */
+
+.testimonials {
+  overflow: hidden;
+  position: relative;
+  max-height: 250px;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-top: 60px;
+}
+
+.testimonial {
+  border: none !important;
+  outline: none !important;
+  height: 250px;
+  padding-top: 70px;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(30%);
+    margin-top: -20px;
+}
+
+/* Slick */
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
 }
