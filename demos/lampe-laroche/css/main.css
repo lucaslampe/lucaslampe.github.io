@@ -86,12 +86,11 @@ html, body {
 }
 
 .pad {
-    margin-left: 75px;
-    margin-right: 75px;
+    display: block;
 }
 
 .personal-img {
-    height: 125px;
+    height: 100px;
     margin-bottom: 30px;
 }
 
