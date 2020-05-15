@@ -86,8 +86,8 @@ html, body {
 }
 
 .pad {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .personal-img {
@@ -101,7 +101,7 @@ html, body {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0)
-    ), url(/img/header.jpg);
+    ), url(header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
