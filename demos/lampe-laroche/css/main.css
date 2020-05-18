@@ -94,9 +94,29 @@ html, body {
     margin-bottom: 30px;
 }
 
+.personal-img2 {
+    height: 225px;
+    margin-bottom: 30px;
+}
+
 .head {
     height: 500px;
     min-height: 500px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0)
+    ), url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.head2 {
+    height: 200px;
+    min-height: 150px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0)
