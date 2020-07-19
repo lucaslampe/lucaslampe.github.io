@@ -4,6 +4,7 @@
   .testimonial {
     padding-top: 50px !important;
     margin-bottom: 40px !important;
+    height: 325px !important;
   }
 
   .icon-overlay {
@@ -206,7 +207,7 @@ a:hover {
 
 .testimonial-block {
   background-color: rgba(0, 0, 0, 0.05);
-  height: 300px;
+  height: 350px;
 }
 
 footer {
@@ -236,7 +237,7 @@ footer a:hover{
 .testimonials {
   overflow: hidden;
   position: relative;
-  max-height: 300px;
+  max-height: 350px;
   font-size: 20px;
   line-height: 1.8;
   margin-top: 60px;
@@ -262,7 +263,6 @@ footer a:hover{
 .carousel-control-prev,
 .carousel-indicators {
     filter: invert(30%);
-    margin-top: -20px;
 }
 
 /* Slick */
