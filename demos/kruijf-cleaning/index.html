@@ -9,7 +9,7 @@
         <title>Kruijf Cleaning</title>
         <meta name="twitter:description" content="Housecare & Interieurverzorging.">
         <meta name="twitter:card" content="">
-        <meta name="description" content="Housecare & Interieurverzorging.">
+        <meta name="description" content="Schoonmaken als een service, dat is waar wij voor staan. Kruijf Cleaning draagt zorg voor uw huis en interieur. Tot in de kleinste details.">
         <meta property="og:image" content="https://lucaslampe.github.io/demos/kruijf-cleaning/favicon.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:title" content="Kruijf Cleaning">
@@ -37,7 +37,7 @@
             <!-- Navigation -->
 
             <div class="container nav-bar">
-                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+                <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
                     <a class="navbar-brand" href="#">
                         <img src="assets/img/logo.svg" alt="Kruijf Cleaning" width="50px">
                     </a>
@@ -103,6 +103,9 @@
             </div>
 
             <div class="container">
+
+                <!-- Over ons -->
+
                 <div class="row block h-100 justify-content-around" id="overons">
                     <div class="col-9 col-lg-5 col-md-10 order-1 order-lg-1 my-auto">
                         <img src="assets/img/unsplash2.jpg" width="100%">
@@ -116,6 +119,8 @@
                     </div>
                 </div>
 
+                <!-- Onze visie -->
+
                 <div class="row block-1 h-100 justify-content-around" id=onzevisie>
                     <div class="col-9 col-lg-5 col-md-10 order-6 order-lg-4 my-auto">
                         <p><b>Onze visie</b><br><br>
@@ -128,18 +133,19 @@
                     </div>
                 </div>
 
-                <div class="row block h-100 justify-content-around" id=onsaanbod>
-                    <div class="col-9 col-lg-5 col-md-10 order-9 order-lg-7 my-auto">
+                <!-- Ons aanbod -->
+
+                <div class="row block-1 h-100 justify-content-around" id=onzevisie>
+                    <div class="col-9 col-lg-5 col-md-10 my-auto"> <!-- data-aos="fade-left" data-aos-duration="1000"> -->
                         <img src="assets/img/unsplash4.jpg" width="100%">
                     </div>
-                    <div class="col-lg-auto hilo order-8 order-lg-8"></div>
-                    <div class="col-9 col-lg-5 col-md-10 order-10 order-lg-9"> <!-- data-aos="fade-right" data-aos-duration="1000"> -->
-                        <p><b>Ons aanbod</b><br><br>
-                            Ons aanbod
+                    <div class="col-lg-auto hilo"></div>
+                    <div class="col-9 col-lg-5 col-md-10 my-auto">
+                        <p>
+                            <b>Ons aanbod</b><br><br>
                             Wij verzorgen een ongekende ervaring: de Kruijf Cleaning Experience. Het begint met een persoonlijk consult waarbij we de wederzijdse verwachtingen managen. Vervolgens groeien we in verschillende fasen naar elkaar toe, waarbij wij uw huis en uw voorkeuren leren kennen. Tijdens de vaste feedback ronde passen we waar nodig ons werk aan. Ons einddoel is ultieme tevredenheid.
                             <br><br>Naast een gedetailleerde interieurverzorging bieden we home care services aan onze vaste klanten. Binnenhuis kunt u denken aan werkzaamheden als het verschonen van uw bed of het zemen van de binnenramen. Buitenshuis verzorgen wij het zomer-klaar maken van uw terras. Het zomer-klaar maken omvat onder andere het reinigen van tuinmeubilair en schoonspuiten van de terrassen met hogedruk reiniger of andere gewenste apparatuur.
                             <br><br><b>Tarieven beginnen bij 43.50 euro, waarin u tot 2 uur lang gebruik mag maken van onze diensten.</b>
-
                         </p>
                     </div>
                 </div>
@@ -260,7 +266,7 @@
                     <div class="col-9 col-lg-3 col-md-4">
                         <b>Neem contact op</b><br><br>
                         <p>Jeftha de Kruijf<br>
-                            kruijfcleaning@outlook.com<br>
+                            info@kruijfcleaning.nl<br>
                             +31 6 22 99 51 07
                         </p>
                     </div>
@@ -305,5 +311,18 @@
     </body>
 
 <script>AOS.init();</script>
+<script>
+    if ($(window).width() > 992) {
+        $(window).scroll(function(){  
+            if ($(this).scrollTop() > 500) {
+                $('#navbar_top').addClass("fixed-top");
+                $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
+            }else{
+                $('#navbar_top').removeClass("fixed-top");
+                $('body').css('padding-top', '0');
+            }   
+        });
+    }
+</script>
 
 </html>

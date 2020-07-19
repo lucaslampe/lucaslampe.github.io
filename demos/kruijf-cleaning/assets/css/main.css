@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:300,400,700&display=swap');
 
 @media screen and (max-width: 768px) {
-  .testimonials {
-    max-height: 700px;
+  .testimonial {
+    padding-top: 50px !important;
+    margin-bottom: 40px !important;
   }
+
   .icon-overlay {
     height: 300px;
     top: calc(50% - 150px);
@@ -38,6 +40,10 @@
   .text2 {
     margin-top: 70px;
     font-size: 230px !important;
+  }
+
+  .text1desc {
+    font-size: 30px;
   }
 
 }
@@ -117,7 +123,7 @@ body {
 
 .text1desc {
   margin-top: 180px;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Spectral', serif;
 }
 
@@ -196,7 +202,7 @@ a:hover {
 
 .testimonial-block {
   background-color: rgba(0, 0, 0, 0.05);
-  height: 250px;
+  height: 300px;
 }
 
 footer {
@@ -226,7 +232,7 @@ footer a:hover{
 .testimonials {
   overflow: hidden;
   position: relative;
-  max-height: 250px;
+  max-height: 300px;
   font-size: 20px;
   line-height: 1.8;
   margin-top: 60px;
@@ -235,8 +241,9 @@ footer a:hover{
 .testimonial {
   border: none !important;
   outline: none !important;
-  height: 275px;
-  padding-top: 70px;
+  height: 250px;
+  padding-top: 85px;
+  margin-bottom: 40px;
 }
 
 .carousel-control-prev {
