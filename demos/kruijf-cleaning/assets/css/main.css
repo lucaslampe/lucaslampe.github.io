@@ -46,6 +46,10 @@
     font-size: 30px;
   }
 
+  .block-last {
+    margin-top: 25px !important;
+  }
+
 }
 
 @media (min-width: 992px) {
