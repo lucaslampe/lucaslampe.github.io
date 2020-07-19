@@ -208,6 +208,7 @@ a:hover {
 .testimonial-block {
   background-color: rgba(0, 0, 0, 0.05);
   height: 350px;
+  margin-bottom: 60px !important;
 }
 
 footer {
