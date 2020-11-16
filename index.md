@@ -8,4 +8,4 @@ Find me over at <i class="fas fa-github"></i> [GitHub](https://github.com/lucasl
 
 For any further questions — or if you want to have personal contact with me — don't hesitate to <i class="fas fa-at"></i> [drop me a line](mailto:lucaslampe@gmail.com).
 
-Cheers!
+Cheers! :smile:
