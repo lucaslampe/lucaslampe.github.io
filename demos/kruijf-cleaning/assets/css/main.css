@@ -1,74 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:300,400,700&display=swap');
 
-@media screen and (max-width: 768px) {
-  .testimonial {
-    padding-top: 50px !important;
-    margin-bottom: 40px !important;
-    height: 325px !important;
-  }
+@media screen and (max-width:768px) {
+    .testimonial {
+        padding-top: 50px !important;
+        margin-bottom: 40px !important;
+        height: 325px !important
+    }
 
-  .icon-overlay {
-    height: 300px;
-    top: calc(50% - 150px);
-  }
-  .carousel-controls .control {
-    width: 25px;
-    height: 25px;
-    top: inherit;
-  }
+    .icon-overlay {
+        height: 300px;
+        top: calc(50% - 150px)
+    }
 
-  .carousel-control-prev {
-    visibility: hidden;
-  }
-  .carousel-control-next {
-    visibility: hidden;
-  }
-  .control i {
-    font-size: .7rem;
-  }
-  .testimonials .message {
-    font-size: 1rem;
-  }
-  .testimonials h2 {
-    font-size: 1.5rem;
-  }
+    .carousel-controls .control {
+        width: 25px;
+        height: 25px;
+        top: inherit
+    }
 
-  .text1 {
-    margin-top: 70px;
-    font-size: 230px !important;
-  }
-  
-  .text2 {
-    margin-top: 70px;
-    font-size: 230px !important;
-  }
+    .carousel-control-prev {
+        visibility: hidden
+    }
 
-  .text1desc {
-    font-size: 30px;
-  }
+    .carousel-control-next {
+        visibility: hidden
+    }
 
-  .block-last {
-    margin-top: 25px !important;
-  }
+    .control i {
+        font-size: .7rem
+    }
 
+    .testimonials .message {
+        font-size: 1rem
+    }
+
+    .testimonials h2 {
+        font-size: 1.5rem
+    }
+
+    .text1 {
+        margin-top: 70px;
+        font-size: 230px !important
+    }
+
+    .text2 {
+        margin-top: 70px;
+        font-size: 230px !important
+    }
+
+    .text1desc {
+        font-size: 30px
+    }
+
+    .block-last {
+        margin-top: 25px !important
+    }
 }
 
-@media (min-width: 992px) {
-  .block-1 {
-    margin-top: 150px;
-    font-size: 20px;
-    line-height: 1.8;
-  }
+@media (min-width:992px) {
+    .block-1 {
+        margin-top: 150px;
+        font-size: 20px;
+        line-height: 1.8
+    }
 }
 
 body {
-  font-family: 'Spectral', serif;
+    font-family: 'Spectral', serif;
 }
 
 .wrapper {
-  overflow-x: hidden !important;
-  scroll-behavior: smooth;
-  position: relative;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+    position: relative;
 }
 
 .nav-bar {
@@ -77,22 +81,19 @@ body {
 }
 
 .xspace {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .head {
     height: 500px;
     min-height: 500px;
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0)
-    ), url(/cortelazzi.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, 0)), url(/cortelazzi.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
-    /* text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.35); */
+    color: lightgray;
     font-family: 'Spectral', serif;
+    text-shadow: 5px 1px 10px #000;
 }
 
 .head-row {
@@ -105,159 +106,190 @@ body {
 }
 
 .text1 {
-  font-size: 300px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  color: rgba(0, 0, 0, 0.05);
-  position: absolute;
-  left: -60px;
-  font-family: 'Spectral', serif;
+    font-size: 300px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: rgba(0, 0, 0, .05);
+    position: absolute;
+    left: -60px;
+    font-family: 'Spectral', serif;
 }
 
 .text2 {
-  font-size: 300px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  color: rgba(0, 0, 0, 0.05);
-  position: absolute;
-  right: -60px;
-  font-family: 'Spectral', serif;
+    font-size: 300px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: rgba(0, 0, 0, .05);
+    position: absolute;
+    right: -60px;
+    font-family: 'Spectral', serif;
 }
 
 .text1desc {
-  margin-top: 180px;
-  font-size: 28px;
-  font-family: 'Spectral', serif;
+    margin-top: 180px;
+    font-size: 28px;
+    font-family: 'Spectral', serif;
 }
 
+
 .img-carou {
-  width: 100%;
+    width: 100%;
 }
 
 a {
-  color: #212529;
-  text-decoration: underline;
+    color: #212529;
+    text-decoration: underline;
 }
 
 .nav-item a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-  color: darkslategrey;
+    color: darkslategrey;
 }
 
 .hilo {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .block {
-  margin-top: 150px;
-  font-size: 20px;
-  line-height: 1.8;
+    margin-top: 150px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.block4 {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.8;
 }
 
 .block-1 {
-  margin-top: 60px;
-  font-size: 20px;
-  line-height: 1.8;
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.section1 {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.text2desc {
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: 'Spectral', serif;
+}
+
+.text3desc {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: 'Spectral', serif;
 }
 
 .block-last {
-  margin-top: 50px;
-  font-size: 20px;
-  line-height: 1.8;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.block-last-1 {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: gray;
 }
 
 .left {
-  vertical-align: left;
+    vertical-align: left;
 }
 
 .foot {
-  height: 100vh;
-  background-color:rgba(0, 0, 0, 0.80);
-  color: white;
-  font-family: 'Spectral', serif;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .80);
+    color: white;
+    font-family: 'Spectral', serif;
 }
 
 .carou {
-  margin-top: 150px;
+    margin-top: 150px;
 }
 
 .vl {
-  border-left: 2px solid #414042;
-  height: 40px;
-  position: absolute;
-  left: 50%;
-  margin-left: -1px;
-  top: 30px;
+    border-left: 2px solid #414042;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top: 30px;
 }
 
 .round {
-  border-radius: 35px;
-  width: 150px;
-  padding: 10px;
+    border-radius: 35px;
+    width: 150px;
+    padding: 10px;
 }
 
 .final-block {
-  margin-top: 180px;
+    margin-top: 180px;
 }
 
 .testimonial-block {
-  background-color: rgba(0, 0, 0, 0.05);
-  height: 350px;
-  margin-bottom: 60px !important;
+    background-color: rgba(0, 0, 0, .05);
+    height: 350px;
+    margin-bottom: 60px !important;
 }
 
 footer {
-  margin-top: 50px;
-  padding-top: 75px;
-  min-height: 300px;
-  background-color: #414042;
-  position: block;
-  color: white;
+    margin-top: 50px;
+    padding-top: 75px;
+    min-height: 300px;
+    background-color: #414042;
+    position: block;
+    color: white;
 }
 
-footer a{
-  color: white;
+footer a {
+    color: white;
 }
 
-footer i{
-  padding-left: 10px;
-  padding-right: 10px;
+footer i {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-footer a:hover{
-  color: lightgray;
+footer a:hover {
+    color: lightgray;
 }
-
-/* Testimonial Carousel */
 
 .testimonials {
-  overflow: hidden;
-  position: relative;
-  max-height: 350px;
-  font-size: 20px;
-  line-height: 1.8;
-  margin-top: 60px;
+    overflow: hidden;
+    position: relative;
+    max-height: 350px;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 60px;
 }
 
 .testimonial {
-  border: none !important;
-  outline: none !important;
-  height: 250px;
-  padding-top: 85px;
-  margin-bottom: 40px;
+    border: none !important;
+    outline: none !important;
+    height: 250px;
+    padding-top: 85px;
+    margin-bottom: 40px;
 }
 
 .carousel-control-prev {
-  left: -50px;
+    left: -50px;
 }
 
 .carousel-control-next {
-  right: -50px;
+    right: -50px;
 }
 
 .carousel-control-next,
@@ -266,17 +298,15 @@ footer a:hover{
     filter: invert(30%);
 }
 
-/* Slick */
-
 .slick-slide {
-transition: all ease-in-out .3s;
-opacity: .2;
+    transition: all ease-in-out .3s;
+    opacity: .2;
 }
 
 .slick-active {
-opacity: .5;
+    opacity: .5;
 }
 
 .slick-current {
-opacity: 1;
+    opacity: 1;
 }
