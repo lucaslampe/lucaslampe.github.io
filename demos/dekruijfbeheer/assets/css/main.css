@@ -87,7 +87,7 @@ body {
 .head {
     height: 500px;
     min-height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, 0)), url(/cortelazzi.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, 0)), url(/header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
