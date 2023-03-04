@@ -206,6 +206,11 @@ a:hover {
     color: gray;
 }
 
+.block-last-1 a {
+    color: gray;
+    text-decoration: none;
+}
+
 .left {
     vertical-align: left;
 }
