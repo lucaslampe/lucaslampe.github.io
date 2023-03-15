@@ -88,12 +88,12 @@ body {
 .head {
     height: 500px;
     min-height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, .35), rgba(0, 0, 0, 0)), url(head-image.jpg);
+    background-image: url(head-image.jpg); /*linear-gradient(rgba(0, 0, 0, .05), rgba(0, 0, 0, 0)),*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: rgb(237, 237, 237);
-    font-family: 'Tenor Sans', serif;
+    font-family: 'Spectral', serif;
     text-shadow: 5px 1px 10px #000;
 }
 
